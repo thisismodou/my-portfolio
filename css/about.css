@@ -1,0 +1,36 @@
+.about-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: #f5f7f9;
+	padding: 50px 20px;
+	text-align: center;
+	min-height: 50vh;
+}
+
+.about-container h1 {
+	font-size: 1.3rem;
+	text-transform: uppercase;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.about-container p {
+	width: 100%;
+	line-height: 1.5rem;
+	text-align: center;
+}
+
+@media (min-width: 600px) {
+	.about-container h1 {
+		font-size: 1.5rem;
+	}
+}
+
+@media (min-width: 768px) {
+	.about-container p {
+		max-width: 650px;
+		line-height: 1.8rem;
+	}
+}

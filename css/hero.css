@@ -1,0 +1,129 @@
+.hero-container {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.hero-content {
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.sm-title {
+	font-size: 1.1rem;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	text-indent: 0.6%;
+}
+
+.title {
+	font-size: 3rem;
+	text-transform: uppercase;
+	letter-spacing: 0.1rem;
+}
+
+.and {
+	color: #715aff;
+	font-size: 2rem;
+}
+
+.designer {
+	font-size: 2.3rem;
+}
+
+.frontend {
+	margin-top: 15px;
+}
+
+.email-btn {
+	background: #715aff;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+	margin: 30px 0;
+	margin-left: 1%;
+	transition: all 0.3s;
+}
+
+.email-btn:hover {
+	box-shadow: 0px 6px 40px 0 hsla(0, 0%, 0%, 0.2);
+	border-radius: 50px;
+}
+
+.icons-container {
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+}
+
+.icon {
+	margin: 0 30px;
+}
+
+@media (min-width: 600px) {
+	.hero-content {
+		padding: 120px;
+	}
+
+	.email-btn {
+		width: 200px;
+	}
+}
+
+@media (min-width: 768px) {
+	.email-btn {
+		width: 200px;
+	}
+
+	.title {
+		font-size: 4.5rem;
+	}
+
+	.hero-container {
+		width: 100%;
+		margin: 0 auto;
+		display: flex;
+		flex-direction: row;
+	}
+
+	.hero-content {
+		order: 2;
+		justify-content: center;
+		padding: 50px;
+	}
+
+	.icons-container {
+		display: flex;
+		align-items: center;
+	}
+
+	.icon {
+		margin: 0 20px;
+	}
+
+	.designer {
+		font-size: 3rem;
+	}
+}
+
+@media (min-width: 1000px) {
+	.title {
+		font-size: 6rem;
+		font-weight: 900;
+	}
+
+	.designer {
+		font-size: 5rem;
+		line-height: 5rem;
+	}
+
+	.and {
+		font-size: 4rem;
+	}
+
+	.developer {
+		font-size: 6.5rem;
+	}
+}

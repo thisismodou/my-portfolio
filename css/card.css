@@ -1,0 +1,50 @@
+.get-in-touch {
+	background: #f5f7f9;
+	min-height: 50vh;
+	padding: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.cards {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.card {
+	background: #fff;
+	width: 100%;
+	padding: 140px 20px 40px 20px;
+	border-radius: 20px;
+}
+
+.card-img {
+	height: 25px;
+}
+
+.card-title {
+	font-size: 1.3rem;
+	margin: 20px 0;
+}
+
+.card-text {
+	line-height: 1.8rem;
+}
+
+.card-middle {
+	margin: 20px 0;
+}
+
+@media (min-width: 768px) {
+	.cards {
+		flex-direction: row;
+		max-width: 1000px;
+	}
+
+	.card-middle {
+		margin: 0 20px;
+	}
+}
