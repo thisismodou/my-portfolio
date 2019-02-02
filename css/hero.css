@@ -12,8 +12,7 @@
 }
 
 .sm-title {
-	font-size: 1.1rem;
-	margin-bottom: 20px;
+	font-size: 0.8rem;
 	text-transform: uppercase;
 	text-indent: 0.6%;
 }
@@ -22,6 +21,7 @@
 	font-size: 3rem;
 	text-transform: uppercase;
 	letter-spacing: 0.1rem;
+	font-weight: 900;
 }
 
 .and {
@@ -33,17 +33,13 @@
 	font-size: 2.3rem;
 }
 
-.frontend {
-	margin-top: 15px;
-}
-
 .email-btn {
 	background: #715aff;
 	color: #fff;
 	text-align: center;
 	padding: 20px;
 	margin: 30px 0;
-	margin-left: 1%;
+	margin-left: 0.5%;
 	transition: all 0.3s;
 }
 
@@ -63,20 +59,21 @@
 }
 
 @media (min-width: 600px) {
-	.hero-content {
-		padding: 120px;
+	.icons-container {
+		justify-content: flex-start;
+	}
+
+	.icon {
+		margin: 0;
+		margin-right: 50px;
 	}
 
 	.email-btn {
-		width: 200px;
+		width: 300px;
 	}
 }
 
 @media (min-width: 768px) {
-	.email-btn {
-		width: 200px;
-	}
-
 	.title {
 		font-size: 4.5rem;
 	}
@@ -97,6 +94,7 @@
 	.icons-container {
 		display: flex;
 		align-items: center;
+		padding-bottom: 120px;
 	}
 
 	.icon {
@@ -111,7 +109,6 @@
 @media (min-width: 1000px) {
 	.title {
 		font-size: 6rem;
-		font-weight: 900;
 	}
 
 	.designer {
